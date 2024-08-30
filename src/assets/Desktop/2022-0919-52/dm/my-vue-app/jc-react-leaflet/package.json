@@ -1,0 +1,61 @@
+{
+  "name": "jc-react-leaflet",
+  "version": "0.0.3.8",
+  "description": "舰船地图应用组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/jc-react-leaflet",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@turf/helpers": "^6.1.4",
+    "@turf/kinks": "^6.0.0",
+    "antd": "^4.7.3",
+    "axios": "^0.21.0",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "leaflet": "1.6.0",
+    "lodash": "^4.17.20",
+    "proj4leaflet": "^1.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "vue": ">= 2.2"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@rollup/plugin-image": "^2.0.5",
+    "@svgr/webpack": "^5.4.0",
+    "@turf/helpers": "^6.1.4",
+    "@turf/kinks": "^6.0.0",
+    "@turf/union": "^6.3.0",
+    "antd": "^4.8.5",
+    "axios": "^0.21.0",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "father": "^2.16.0",
+    "proj4leaflet": "^1.0.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-url": "^3.0.1",
+    "typescript": "^3.3.3",
+    "vue": "^2.6.12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mapgis/webclient-es6-service": "1.0.3",
+    "leaflet-contextmenu": "^1.4.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-minimap": "^3.6.1",
+    "leaflet-polylinedecorator": "^1.6.0",
+    "react-color": "^2.19.3",
+    "react-leaflet": "^2.8.0",
+    "vuera": "^0.2.7"
+  }
+}
