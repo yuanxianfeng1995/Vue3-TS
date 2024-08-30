@@ -4,7 +4,9 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+console.log(111111111)
+</script>
 
 <style scoped>
 .app {
